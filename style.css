@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Baloo Tamma 2', cursive;
+  color: white;
+  font-size: 1em;
+  margin: 0;
+}
+body {
+  background-color: #352f44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+html, body {
+  text-align: center
+}
+div#conteiner {
+  
+  background-color: #2a2438;
+  border-radius: 10px;
+  border: 1px solid #1a1624;
+  width: 300px;
+  
+}
+#searchBar{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 300px;
+  color: #2a2438;
+  font-weight: 2em;
+  
+}
+button {
+  width: 300px;
+padding: 10px 20px;
+color:white;
+text-align: center;
+border: 1px solid #310a5d;
+border-radius: 4px;
+background-color: #411e8f;
+font-size: 1.5em;
+font-weight: bold;
+}
+
+#nome, #numero, #description {
+  color: white;
+  font-size: 1.5em;
+}
+#img {
+  width: 200px;
+  opacity: 0;
+  transition: opacity 1s;
+}
